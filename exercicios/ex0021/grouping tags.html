@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 8px;
+            margin: 10px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.569);
+        }
+        #icone-noticias{
+            width: 1em;
+            height: 1em;
+        }
+        nav{
+            background-color: black;
+            padding: 2px;
+            margin: 10px;
+            box-shadow: 2px 2px 3px black;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            margin-right: 10px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: lightseagreen;
+        }
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 8px;
+            border-radius: 5px;
+        }
+        article{
+            background-color: lightseagreen;
+            color: black;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(16, 123, 117);
+            text-align: center;
+        }
+        footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 5px;
+        }
+        footer >p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portal de exemplo</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Noticias do Brasil <img src="images/noticia.png" alt="Noticias" id="icone-noticias"></h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis non dolore aperiam fugiat enim eius perferendis sunt omnis? Porro, tempora. Reiciendis labore minus pariatur perspiciatis aspernatur ullam id quidem unde.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zs9OdibZmzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <aside>Willian Ramalho</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Willian Ramalho</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(files/fontes/idroid.otf) format('opentype');
+}
+
+
+body{
+    margin: 0px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84e1ad;
+}
+header{
+    background-image: linear-gradient(to bottom, #3ddc84,#195b38);
+    height: 145px;
+    margin-top: 0px;
+    padding: 17px;
+    margin-right:0px;
+}
+header >h1{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    font-family: 'Bebas Neue', cursive;
+
+}
+header >p{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+nav{
+    margin-top: 0px;
+    background-color: #195b38;
+    padding: 10px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 5px;
+    border-radius: 5px;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: #3ddc8543;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    min-width: 400px;
+    max-width: 1050px;
+    margin: auto;
+}
+main > p{
+    text-indent: 1.5em;
+}
+main > h2, h3{
+    color:#195b38;
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    
+}
+main > h3 {
+    background-image: linear-gradient(to right,#195b3833, #195b3800 );
+    padding: 3px;
+}
+main > p > a{
+    background-color: #2fa8656b;
+    color: #195b38;
+    padding: 1px;
+}
+
+main > p > a::after{
+    content: '🔗';
+}
+
+picture > source, img {
+    display: block;
+    margin: auto;
+}
+ul{
+    columns: 2;
+    list-style-type: '\2714\0020\0020';
+    list-style-position: inside;
+}
+
+
+div{
+    background-color: #84e1ad;
+    padding: 10px;
+
+}
+.list{
+    background-color: #2fa866;
+    color: white;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+footer{
+    background-color: #195b38;
+    text-align: center;
+    
+    margin-top: 15px;
+    padding: 7px;
+}
+footer > p{
+    color: #3ddc84;
+    font-weight: bold;
+    margin: 0px;   
+}
+p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
