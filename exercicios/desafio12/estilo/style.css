@@ -41,21 +41,22 @@ header > p {
 
 header > p > a, footer > p > a{
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
 }
 
 header > p > a:hover, footer > p > a:hover {
-  text-decoration: underline;
+  background-color: rgb(57, 57, 57);
 }
 
 footer{
     background-color: black;
+    padding;
 }
 footer > p{
     color: white;
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
     
 }
 section.normal {
