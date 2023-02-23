@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte2: 'Passion One', cursive;
+  --fonte3: 'Sriracha', cursive;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: darkgray;
+  min-height: 100vh;
+  font-family: var(--fonte1);
+}
+
+header {
+  background-color: black;
+  height: 24vw;
+}
+
+header > h1 {
+  color: white;
+  font-family: var(--fonte2);
+  font-variant: small-caps;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 10vw;
+}
+
+header > p {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+header > p > a, footer > p > a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header > p > a:hover, footer > p > a:hover {
+  text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+}
+footer > p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+section.normal {
+  background-color: white;
+}
+
+section.normal > p {
+  font-size: 3vw;
+  display: inline-block;
+  white-space: pre-wrap;
+  text-align: justify;
+  line-height: 5vw;
+  font-family: var(--fonte3);
+  margin: 20px 40px 20px 20px;
+}
+
+section#imagem01 > p,
+section#imagem02 > p {
+  font-size: 3vw;
+  display: inline-block;
+  white-space: pre-wrap;
+  text-align: justify;
+  line-height: 5vw;
+  font-family: var(--fonte3);
+  background-color: rgba(0, 0, 0, 0.405);
+  padding: 10px;
+  color: white;
+  width: 50vw;
+  margin: 50px 20px;
+  border-radius: 5px;
+}
+
+section#imagem01,
+section#imagem02 {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: inset 0 0 17px rgba(0, 0, 0, 0.5);
+}
+
+section#imagem01 {
+  background-image: url(../imagens/background001.jpg);
+}
+
+section#imagem02 {
+  background-image: url(../imagens/background002.jpg);
+}
+
+section#imagem01 > img,
+section#imagem02 > img {
+  max-width: 100%;
+  height: auto;
+}
