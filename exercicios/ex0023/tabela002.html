@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 350px;
+            border-collapse: collapse;
+        }
+        caption{
+            padding: 5px;
+            font-weight: bold;
+        }
+        th{
+            background-color: lightskyblue;
+            color: white;
+        }
+        td, th{
+            border: 0.5px solid black;
+            padding: 5px;
+            
+        }
+        tbody > tr:nth-child(2n) {
+         background-color: #727272;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Valor da cota por mês</caption>
+        <thead>
+            <tr>
+                <th scope="col">Mês</th>
+                <th scope="col ">Valor da cota (em R$)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Janeiro</td>
+                <td>R$ 635,00</td>
+            </tr>
+            <tr>
+                <td>Fevereiro</td>
+                <td>R$ 635,00</td>
+            </tr>
+            <tr>
+                <td>Março</td>
+                <td>R$ 635,00</td>
+            </tr>
+            <tr>
+                <td>Abril</td>
+                <td>R$ 635,00</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
